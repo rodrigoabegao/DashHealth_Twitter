@@ -3,10 +3,12 @@ import os
 import requests 
 from zipfile import ZipFile
 
-chave_consumidor = 'QATlfhbqCZ8Ju3Ld65AekgHHd'
-segredo_consumidor = '1PbTijNG5Hwldcmi10X7QVPJgo8AjMIYV1Pi0Z8mDiAuOxAi6c'
-token_acesso = '1425940783643910144-owtV5USsngk3lOmc9aubFgEL3dj6sB'
-token_acesso_segredo = 'jiiVK3ZOSFPhuBvRySbmv0VDXFtkW7IMEdh6hGjkhFVOx'
+#Colocar as informações da Api do Twitter(deve ser feito uma conta na API do TWITTER para ter acesso a ele)
+
+chave_consumidor = ' '
+segredo_consumidor = ' '
+token_acesso = ' '
+token_acesso_segredo = ' '
 
 analise = Tweety(chave_consumidor, segredo_consumidor, 
 token_acesso, token_acesso_segredo)
